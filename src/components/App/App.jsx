@@ -14,7 +14,7 @@ function App() {
         <div className="selling-points">
           <div className="point">
 
-            <h1>Service 1</h1>
+            <h1>Installation</h1>
 
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium
@@ -23,7 +23,7 @@ function App() {
             </p>
           </div>
           <div className="point">
-            <h1>Service 2</h1>
+            <h1>Monthly Inspections</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium
               perferendis laborum, quae soluta rem itaque hic. Ex eligendi, consequatur mollitia
@@ -31,7 +31,7 @@ function App() {
             </p>
           </div>
           <div className="point">
-            <h1>Service 3</h1>
+            <h1>24 hour Customer Service</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium
               perferendis laborum, quae soluta rem itaque hic. Ex eligendi, consequatur mollitia

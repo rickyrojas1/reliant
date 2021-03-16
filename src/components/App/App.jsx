@@ -14,7 +14,7 @@ function App() {
         <div className="selling-points">
           <div className="point">
 
-            <h1>Testing</h1>
+            <h1>Service 1</h1>
 
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium

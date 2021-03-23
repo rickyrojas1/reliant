@@ -1,0 +1,23 @@
+.content {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  height: calc(100vh - 60px);
+
+  background-image: url("../../images/firefighter.jpg");
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.selling-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  align-items: center;
+}

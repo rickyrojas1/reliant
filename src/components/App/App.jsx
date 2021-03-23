@@ -1,4 +1,6 @@
+/* eslint-disable react/button-has-type */
 import React from 'react';
+import SellingPoint from '../SellingPoint/SellingPoint';
 
 import './App.scss';
 
@@ -12,35 +14,18 @@ function App() {
       <div className="content">
         <div className="img" />
         <div className="selling-points">
-          <div className="point">
-
-            <h1>Service 1</h1>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium
-              perferendis laborum, quae soluta rem itaque hic. Ex eligendi, consequatur mollitia
-              nihil enim consequuntur a repellat sunt obcaecati voluptatem quasi.
-            </p>
-          </div>
-          <div className="point">
-            <h1>Service 2</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium
-              perferendis laborum, quae soluta rem itaque hic. Ex eligendi, consequatur mollitia
-              nihil enim consequuntur a repellat sunt obcaecati voluptatem quasi.
-            </p>
-          </div>
-          <div className="point">
-            <h1>Service 3</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium
-              perferendis laborum, quae soluta rem itaque hic. Ex eligendi, consequatur mollitia
-              nihil enim consequuntur a repellat sunt obcaecati voluptatem quasi.
-            </p>
-          </div>
+          <SellingPoint title="Services 1" bodyText="lorem ipsum hello there this is text" />
+          <SellingPoint title="Services 2" bodyText="lorem ipsum hello there this is text" />
+          <SellingPoint title="Services 3" bodyText="lorem ipsum hello there this is text" />
+          <SellingPoint title="Services 4" bodyText="lorem ipsum hello there this is text" />
+          <SellingPoint title="Services 5" bodyText="lorem ipsum hello there this is text" />
+          <SellingPoint
+            title="Services 6"
+            bodyText="lorem ipsum hello there this is text lorem ipsum lorem ipsum hello
+             there this is text hello there this is text lorem ipsum hello there this is text"
+          />
         </div>
       </div>
-      {console.log('hi')}
       <footer className="footer">Footer</footer>
     </div>
   );

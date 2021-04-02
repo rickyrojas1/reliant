@@ -1,0 +1,23 @@
+.content-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-1 {
+  background-image: url("../../images/hose_testing.png");
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service {
+  padding: 50px;
+}
+
+.services-page-header {
+  text-align: center;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

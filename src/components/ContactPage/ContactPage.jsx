@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const ContactPage = () => {
-  const [counter, setCounter] = useState(69);
+  const [counter, setCounter] = useState(1);
 
   const updateCounter = () => {
     setCounter(counter + 1);
@@ -9,7 +9,7 @@ const ContactPage = () => {
 
   return (
     <div>
-      CONTACT PAGE MEEELOOOOO
+      CONTACT PAGE
       <button type="button" onClick={updateCounter}>Click to add one</button>
       {counter}
     </div>

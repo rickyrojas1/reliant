@@ -1,17 +1,45 @@
 .content-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  min-height: 400px;
+  padding-bottom: 100px;
 }
+
 
 .img-1 {
   background-image: url("../../images/hose_testing.png");
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 90%;
+  margin-left: 50px;
 }
+
+.img-2 {
+  background-image: url("../../images/Fire-Truck.jpg");
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  margin-right: 50px;
+}
+
+.img-3 {
+  background-image: url("../../images/Hard-Suction-Testing-Pic.jpg");
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  margin-left: 50px;
+}
+
 
 .service {
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .services-page-header {

@@ -27,6 +27,34 @@ const ServicePage = () => (
 
       </div>
     </div>
+    <div className="content-row">
+
+      <div className="service">
+
+        <h2>Pump, Ground Ladder, and Aerial Testing</h2>
+        <p>
+          For an added convenience to our customers, Reliant is able to offer Pump,
+          Ground Ladder, and Aerial Testing to our services.
+          Ask about a quote today!
+
+        </p>
+      </div>
+      <div className="img-2" />
+    </div>
+    <div className="content-row">
+
+      <div className="img-3" />
+      <div className="service">
+
+        <h2>Hard Suction Testing </h2>
+        <p>
+          Reliant offers NFPA required Dry-Vacuum Testing of hard suction hoses.
+          This important part of testing aims to help prevent discovery of
+          drafting issues during Firematic operation.
+        </p>
+
+      </div>
+    </div>
   </div>
 );
 

@@ -44,9 +44,12 @@
 
 .footer {
   grid-area: footer;
-
+  color: #fff;
   background-color: black;
   height: 50px;
+  display: flex;
+  align-items: center ;
+  padding-left: 30px;
 }
 
 /* Position and sizing of burger button */

@@ -1,0 +1,17 @@
+.members-row{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+}
+
+.member{
+    text-align: center;
+    padding: 80px;
+}
+
+.about-mission{
+    text-align: center;
+    //border: 1px solid red;
+    padding: 50px 100px;
+    margin-right: 700px;
+    
+}

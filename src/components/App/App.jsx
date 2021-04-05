@@ -45,7 +45,7 @@ function App() {
       <Route path="/services"><ServicePage /></Route>
       <Route path="/about"><AboutUsPage /></Route>
 
-      <footer className="footer">Footer</footer>
+      <footer className="footer">Copyright @2021 | Reliant Fire Hose Testing Inc.</footer>
     </div>
   );
 }

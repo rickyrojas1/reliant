@@ -35,10 +35,13 @@
   margin: 15px;
   color: white;
   text-decoration: none;
+  font-family: Rajdhani, serif;
 
   &:hover {
-    color: darksalmon;
+    color: rgb(196, 30, 30);
     transition: 1s;
+    text-shadow:.5px .5px 1px #fff, 
+      
   }
 }
 
@@ -50,6 +53,7 @@
   display: flex;
   align-items: center ;
   padding-left: 30px;
+  font-family: Rajdhani, serif;
 }
 
 /* Position and sizing of burger button */

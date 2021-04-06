@@ -30,7 +30,7 @@ const ServicePage = () => (
 
       </div>
     </div>
-    <div className="content-row">
+    <div className="content-row blue">
 
       <div className="service">
 

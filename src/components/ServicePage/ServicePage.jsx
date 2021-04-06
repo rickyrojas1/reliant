@@ -3,9 +3,12 @@ import './ServicePage.scss';
 
 const ServicePage = () => (
   <div className="services-page">
-    <h1 className="services-page-header">
-      Services
-    </h1>
+    <div className="background-img">
+      <div />
+      <h1 className="services-page-header">
+        Our Services
+      </h1>
+    </div>
     <div className="content-row">
 
       <div className="img-1" />

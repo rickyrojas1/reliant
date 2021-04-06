@@ -24,16 +24,16 @@ function App() {
             ? (
               <>
                 <Link className="nav-btn" to="/">Home</Link>
-                <Link className="nav-btn" to="/contact">Contact</Link>
                 <Link className="nav-btn" to="/services">Services</Link>
+                <Link className="nav-btn" to="/contact">Contact</Link>
                 <Link className="nav-btn" to="/about">About Us</Link>
               </>
             )
             : (
               <Menu disableOverlayClick={false} className="mobile-menu" right>
                 <Link className="nav-btn" to="/">Home</Link>
-                <Link className="nav-btn" to="/contact">Contact</Link>
                 <Link className="nav-btn" to="/services">Services</Link>
+                <Link className="nav-btn" to="/contact">Contact</Link>
                 <Link className="nav-btn" to="/about">About Us</Link>
               </Menu>
             )
@@ -41,8 +41,8 @@ function App() {
       </header>
 
       <Route exact path="/"><HomePage /></Route>
-      <Route path="/contact"><ContactPage /></Route>
       <Route path="/services"><ServicePage /></Route>
+      <Route path="/contact"><ContactPage /></Route>
       <Route path="/about"><AboutUsPage /></Route>
 
       <footer className="footer">Copyright @2021 | Reliant Fire Hose Testing Inc.</footer>

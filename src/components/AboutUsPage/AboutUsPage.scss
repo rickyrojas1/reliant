@@ -1,6 +1,9 @@
 .members-row{
     display: grid ;
     grid-template-columns: 1fr 1fr;
+    h2{
+    font-family: Rajdhani, serif;
+    }
 }
 
 .member{
@@ -13,5 +16,8 @@
     //border: 1px solid red;
     padding: 50px 100px;
     margin-right: 700px;
+    h2{
+    font-family: Rajdhani, serif;
+    }
     
 }
